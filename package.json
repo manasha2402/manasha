@@ -1,0 +1,34 @@
+{
+  "name": "minimalistic-homepage",
+  "version": "1.0.0",
+  "description": "A minimalistic portfolio homepage with interactive constellation background",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "format": "prettier --write \"**/*.{html,css,js}\"",
+    "lint": "eslint js/**/*.js",
+    "validate": "html-validate \"*.html\""
+  },
+  "keywords": [
+    "portfolio",
+    "homepage",
+    "es6",
+    "vanilla-js",
+    "constellation",
+    "interactive"
+  ],
+  "author": "Manasha Sekar",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "html-validate": "^8.9.1",
+    "serve": "^14.2.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

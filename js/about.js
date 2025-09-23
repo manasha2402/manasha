@@ -1,14 +1,9 @@
 // about.js - ES6 Module for About Page
 import Constellation from './modules/constellation.js';
-import Navigation from './modules/navigation.js';
 
 // Initialize constellation background
 const constellation = new Constellation('constellation');
 constellation.init();
-
-// Initialize navigation
-const navigation = new Navigation();
-navigation.init();
 
 // Animate timeline items on scroll
 const observeTimeline = () => {
@@ -59,4 +54,4 @@ document.addEventListener('DOMContentLoaded', () => {
   animateSkills();
 });
 
-export { constellation, navigation };
+export { constellation};
