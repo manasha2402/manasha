@@ -8,7 +8,7 @@ constellation.init();
 // Animate timeline items on scroll
 const observeTimeline = () => {
   const timelineItems = document.querySelectorAll('.timeline-item');
-  
+
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry, index) => {
@@ -35,11 +35,11 @@ const observeTimeline = () => {
 // Animate skill categories
 const animateSkills = () => {
   const skillCategories = document.querySelectorAll('.skill-category');
-  
+
   skillCategories.forEach((category, index) => {
     category.style.opacity = '0';
     category.style.transform = 'translateY(20px)';
-    
+
     setTimeout(() => {
       category.style.transition = 'all 0.6s ease';
       category.style.opacity = '1';
@@ -54,4 +54,4 @@ document.addEventListener('DOMContentLoaded', () => {
   animateSkills();
 });
 
-export { constellation};
+export { constellation };

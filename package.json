@@ -21,6 +21,7 @@
   "author": "Manasha Sekar",
   "license": "MIT",
   "dependencies": {
+    "lint": "^1.1.2"
   },
   "devDependencies": {
     "html-validate": "^8.9.1",
