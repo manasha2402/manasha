@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Your Name" />
+    <meta
+      name="description"
+      content="A minimalistic portfolio homepage showcasing my work and skills"
+    />
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Your Name - Portfolio</title>
+  </head>
+  <body>
+
+    <nav class="navbar">
+      <div class="nav-container">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section class="mainpage">
+  <div class="mainpage-content">
+    <div class="mainpage-header">
+      <div class="mainpage-text">
+        <h1 class="mainpage-title">
+          <span class="text-gradient">Hi ! This is</span>
+          <span class="name">Manasha Sekar</span>
+        </h1>
+        <p class="mainpage-subtitle">Master's Student @ Northeastern University</p>
+        <div class="mainpage-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+      <div class="mainpage-photo-container">
+        <img src="./images/profile-photo.jpeg" alt="Manasha Sekar Profile Photo" class="profile-photo" />
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="projects-grid">
+            <article class="project-card" data-aos="fade-up">
+              <img
+                src="./images/project1.jpg"
+                alt="Sports League Management System Screenshot"
+                class="project-image"
+              />
+              <div class="project-content">
+                <h3 class="project-title">Sports League Management System</h3>
+                <p class="project-description">
+                  A interactive webpage for managing sports leagues and teams.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">MYSQL</span>
+                  <span class="tag">Java</span>
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JavaScript</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-aos="fade-up">
+              <img
+                src="./images/project2.webp"
+                alt="Virtual Calendar App Screenshot"
+                class="project-image"
+              />
+              <div class="project-content">
+                <h3 class="project-title">Virtual Calendar App</h3>
+                <p class="project-description">
+                  Replicating Google/Apple Calendar.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Java</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-aos="fade-up">
+              <img
+                src="./images/project3.png"
+                alt="Cryptocurrency Price Prediction Dashboard Screenshot"
+                class="project-image"
+              />
+              <div class="project-content">
+                <h3 class="project-title">Cryptocurrency Price Prediction</h3>
+                <p class="project-description">
+                  Uses machine learning to predict cryptocurrency prices.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Python</span>
+                  <span class="tag">Regression Model</span>
+                </div>
+              </div>
+            </article>
+            <article class="project-card" data-aos="fade-up">
+              <img
+                src="./images/project4.avif"
+                alt="Car Plate Detection Screenshot"
+                class="project-image"
+              />
+              <div class="project-content">
+                <h3 class="project-title">Car Plate Detection:</h3>
+                <p class="project-description">
+                 Real-time car plate recognition using Raspberry Pi and Python
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Raspberry Pi</span>
+                  <span class="tag">Python</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2 class="section-title">Let's Connect</h2>
+          <div class="contact-content">
+            <p class="contact-text">
+              I'm always interested in new opportunities and collaborations. 
+Feel free to reach out via email or connect with me on LinkedIn and GitHub.
+            </p>
+            <div class="social-links">
+              <a
+                href="https://github.com/manasha2402"
+                class="social-link"
+                aria-label="GitHub Profile"
+              >
+                <svg class="social-icon" viewBox="0 0 24 24">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/manasha-sekar-240326148"
+                class="social-link"
+                aria-label="LinkedIn Profile"
+              >
+                <svg class="social-icon" viewBox="0 0 24 24">
+                  <path
+                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="mailto:sekar.ma@northeastern.edu"
+                class="social-link"
+                aria-label="Email Contact"
+              >
+                <svg class="social-icon" viewBox="0 0 24 24">
+                  <path
+                    d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="footer-text">© 2025 Manasha Sekar. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
