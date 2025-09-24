@@ -8,7 +8,7 @@ Email: sekar.ma@northeastern.edu
 
 ## Class Link
 **Course**: Web Development - CS5610 <br>
-**Assignment**: Personal Homepage -Assignment 1 
+**Link**: [https://johnguerra.co/classes/webDevelopment_online_fall_2025/ ](https://johnguerra.co/classes/webDevelopment_online_fall_2025/)
 
 ## Live Demo & Resources
  **Live Page**: [https://manasha2402.github.io/manasha/](https://manasha2402.github.io/manasha/)  
