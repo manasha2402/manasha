@@ -20,6 +20,9 @@ Email: sekar.ma@northeastern.edu
 ![Portfolio Homepage Screenshot](./images/screenshot3.jpeg)
 ![Portfolio Homepage Screenshot](./images/screenshot4.jpeg)
 
+## Design Document
+[Design Documents](Design_Documents.pdf)
+
 ## Creative Addition
 **Skills can be web searched**: While viewing the project page, you can click on the skill set available for the particular project to access its documentation.
 
