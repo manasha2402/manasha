@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   const skillTags = document.querySelectorAll('.tag');
   skillTags.forEach((tag) => {
-
     tag.style.cursor = 'pointer';
 
     tag.addEventListener('mouseenter', function () {
